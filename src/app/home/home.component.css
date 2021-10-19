@@ -1,0 +1,529 @@
+.floating-header {
+   position: fixed;
+    z-index: 1000;
+    width: 100%;
+}.h2-heading{
+  font-size: 45px;
+  font-family: 'Playball', cursive;
+  color: #d291bc !important;
+} .paragraph {
+  line-height: 1.6;
+  font-size: 1.05em;
+  font-weight: 400;
+  color: #555;
+} .icon{
+  width: 60px;
+  height: 60px;
+}
+.groom-bride-main-content:after{
+  content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: rgba(0,0,0,.3);
+}
+.groom-bride-main-content{
+    margin-top: 64px;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    background-image: url(https://preview.colorlib.com/theme/wedding2/images/slider-1-1600x900.jpg.webp);
+    background-size: cover;
+    color: #fff;
+}
+
+.groom-content-table{
+    text-align: center;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.wedding-content{
+  line-height:1; 
+  display: table-cell;
+  vertical-align: middle;
+}
+.wedding-date{
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: #fff;
+}
+.wedding-person-save{
+  font-family: 'Playball', cursive;
+  font-size: 3em;
+  color: #fff;
+}
+.wedding-person-name{
+  font-family: 'Playball', cursive;
+  font-size: 9em;
+  color: #fff;
+  line-height: 1;
+}
+.wedding-info{
+  font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #d291bc;
+    letter-spacing: 7px;
+    position: relative;
+    background: #fff;
+    padding: 8px 15px;
+    border-radius: 2px;
+}
+
+.section{
+  padding: 70px 0 70px;
+}
+.story-area:after{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.story-area{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.story-area:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  opacity: .8;
+   background: url(https://preview.colorlib.com/theme/wedding2/images/Background_Circle.png.webp)
+  
+}
+.container{
+  width: 1140px;
+  max-width: 100%;
+  padding-right: 15px;
+    padding-left: 15px;
+}
+.row{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: -15px;
+  margin-left: -15px;
+  text-align: center;
+  display: block;
+  flex-wrap: wrap;
+} .row-padding {
+  padding-bottom: 3rem !important;
+}
+.column{
+
+}
+.story-heading{
+  padding-bottom: 20px;
+}
+.story-title{
+  font-size: 3.5em;
+  line-height: 1.1;
+  font-family: 'Playball', cursive;
+}
+.heading-bottom{
+  margin-top: 10px;
+  display: inline-block;
+  width: 210px;
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+  font-size: 3.5em
+}
+.heading-bottom:after{
+  content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -8.5px;
+    height: 1px;
+    width: 90px;
+    background: #aaa;
+} 
+.heading-bottom:before{
+  content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -8.5px;
+    height: 1px;
+    width: 90px;
+    background: #aaa;
+} .bottom-icon{
+  margin-bottom: 0px;
+  color: #E45F74;
+}
+.story-content{
+  line-height: 1.6;
+  font-size: 20px;
+  font-weight: 400;
+  color: #555;
+  font-family: 'Bitter', serif;
+}
+.counter-area{
+  position: relative;
+  z-index: 1;
+  background-image: url(https://preview.colorlib.com/theme/wedding2/images/counter-1-1600x600.jpg.webp);
+  background-size: cover;
+  color: #fff;
+} .counter-area:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: rgba(0,0,0,.3)
+} 
+.counter-title{
+  font-size: 3.5em;
+  line-height: 1.1;
+  font-family: 'Playball', cursive;
+  color: #f9f9f9;
+}
+.time{
+  position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    margin-bottom: 30px;
+    height: 120px;
+    width: 120px;
+    padding-top: 25px;
+    border-radius: 100px;
+    border: 1px solid #fff;
+}
+.counter-timing{
+  font-size: 3em;
+  line-height: 1;
+  display: block;
+} .subheading {
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
+    color: #d291bc;
+    letter-spacing: 2px;
+    font-weight: 900;
+    border: 1px dashed #d291bc;
+    display: inline-block;
+    padding: 0 10px;
+} .subheading-content{
+  line-height: 1.2;
+  font-size: 100px;
+  font-weight: normal;
+  font-family: 'Playball', cursive;
+  color: #d291bc;
+  margin-bottom: 1rem !important;
+} .bride-groom {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  padding: 0;
+  margin-bottom: 80px;
+}.ftco-animate{
+} .d-md-flex {
+
+}.fadeInUp{
+  animation-name: fadeInUp;
+} .ftco-animated{
+  animation-duration: .5s;
+  animation-fill-mode: both
+} .img{
+  display: block;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border: 15px solid #f0d9e8;
+} .order-md-last{
+  order: 13;
+} .ml-md-5{
+  margin-left: 3rem !important;
+} .groom-image{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(https://preview.colorlib.com/theme/twohearts/images/xgroom.jpg.pagespeed.ic.6E8xz7uPat.webp);
+}.bridal-image{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(https://preview.colorlib.com/theme/twohearts/images/xbride.jpg.pagespeed.ic.J4_wf5Jvyl.webp);
+} .text{
+  width: calc(100% - 400px);
+  position: relative;
+  padding-top: 30px;
+} .font-style{
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+}
+
+.wedding-detail{
+  overflow: hidden;
+  position: relative;
+} .wedding-detail:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -.5px;
+  width: 1px;
+  background: #ccc;
+} .margin-bottom {
+  margin-bottom: 30px;
+} .wedding-event{
+  width: 50%;
+  padding: 0 50px;
+  margin-bottom: 30px;
+  position: relative;
+  clear: both;
+  margin-top: -40px;
+} .wedding-event:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 18px;
+    width: 18px;
+    border-radius: 20px;
+    z-index: 1;
+    border: 1px solid #aaa;
+    background: #fff;
+}.right{
+  text-align: left;
+  float: right;
+} .right:after{
+  left: 0;
+  margin-left: -9px;
+}.left{
+  text-align: right;
+  float: left;
+} .left:after{
+  right: 0;
+  margin-right: -9px;
+}.wedding-event-title{
+   margin: 10px 0;
+   font-size: 1.5em;
+}.wedding-event:first-child{
+  margin-top: 0
+} .wedding-event:last-child {
+  margin-bottom: 0;
+} .icon-ciurclke:before{
+  content: "\65";
+}
+
+
+
+
+.side-menu-wrapper{
+  height: fit-content;
+}
+
+.side-menu {
+  position: fixed;
+  margin-top: 64px;
+  height: 100%;
+  display: none;
+}
+
+.side-menu-layout {
+height: 100%;
+}
+
+.navigation-button-position-prev {
+    margin-left: 10%;
+}
+
+.navigation-button-position-next{
+   margin-right: 10%;
+}
+
+.side-panel-main {
+  height: 95vh;
+}
+
+.collapse-button-top {
+  top:0;
+  left: 0;
+}
+
+.dynamic-container {
+  width: 100%;
+}
+
+.scrollspy-example {
+    position: relative;
+    height: 200px;
+    margin-top: .5rem;
+    overflow: auto;
+}
+
+[nz-carousel-content] {
+  text-align: center;
+  background: #364d79;
+  color: #fff;
+  overflow: hidden;
+  user-select: none;
+}
+
+img {
+  color: #fff;
+  margin-bottom: 0;
+  user-select: none;
+}
+
+.background-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../assets/image-1.jpg");
+    background-size: cover;
+}
+
+.second-carousle-class{
+  padding-top: 24px;
+}
+.invitation-content-main{
+  padding-top: 0px;
+  font-family: 'Bitter', serif;
+  user-select: none;
+}
+
+.invitation-content-area{
+  padding: 16px 32px 32px 32px;
+  border-right: 1px solid #f1f1f1;
+}
+.carousle-image-height{
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.timer {
+  margin-top: 64px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 1.4em;
+  letter-spacing: -1px;
+}
+.timer span {
+  font-size: 2em;
+  margin: 0 3px 0 15px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .wedding-person-save{
+    font-family: 'Playball', cursive;
+    font-size: 2em;
+    color: #fff;
+  }
+  .wedding-person-name{
+    font-family: 'Playball', cursive;
+    font-size: 5em;
+    color: #fff;
+    line-height: 1;
+  }
+  .wedding-info{
+    font-size: 7px;
+  }
+  .section{
+    padding: 30px 0 30px;
+  }
+  .story-heading{
+    padding-bottom: 0px;
+  }
+  .story-content{
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    font-family: 'Bitter', serif;
+  } .subheading-content{
+    line-height: 1.2;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Playball', cursive;
+    color: #d291bc;
+    margin-bottom: 1rem !important;
+  } .img{
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    border: 15px solid #f0d9e8;
+  }  .ml-md-5{
+    margin-left:0rem !important;;
+  } .text {
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 100px;
+  }.left{
+    text-align: left;
+    float: none;
+  }.right{
+    text-align: left;
+    float: none;
+  }
+  .wedding-detail:after{
+    left: 0;
+    margin-left: 0px;
+  } .wedding-detail{
+    margin-left: 15px;
+    overflow: visible;
+  } .wedding-event {
+    width: 100%;
+    padding: 0 0 0 30px;
+    margin: 0 0 30px;
+  } .left:after{
+    right: 0;
+    margin-right: -9px;
+    left: 0;
+    margin-left: -9px;
+  }
+
+
+  .invitation-content-main {
+    padding-top: 0px;
+    margin-left: 0px;
+    user-select: none;
+  }
+  .invitation-content-area{
+    padding: 16px 10px 16px 10px;
+    border-right: 1px solid #f1f1f1;
+  }
+
+  .carousle-image-height{
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .side-menu {
+    position: fixed;
+    margin-top: 64px;
+    height: 100%;
+    display: block;
+    z-index: 1000;
+  }
+
+  .navigation-button-position-prev{
+    margin-left:auto;
+  }
+
+  .navigation-button-position-next{
+    margin-right: auto;
+  }
+}
