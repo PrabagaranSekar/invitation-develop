@@ -119,6 +119,9 @@ Read more about MIT at [TLDRLegal](https://tldrlegal.com/license/mit-license).
 ng-zorro-antd
 MIT
 
+ngx-owl-carousel-o
+MIT
+
 ngx-spinner
 MIT
 
